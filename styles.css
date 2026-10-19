@@ -1,1 +1,70 @@
 /*  your css code here. If applicable */
+        body {
+            background-color: #f0f2f5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Card Container */
+        .card {
+            width: 320px;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        /* Image Element */
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        /* Title Element */
+        .card h1 {
+            font-size: 24px;
+            color: #333333;
+            margin: 15px 0 10px 0;
+        }
+
+        /* Pricing Information Element */
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2ecc71;
+            margin: 0 0 10px 0;
+        }
+
+        /* Description Element */
+        .description {
+            font-size: 14px;
+            color: #666666;
+            line-height: 1.5;
+            margin: 0 0 20px 0;
+        }
+
+        /* Buy Now Button Element */
+        .card button {
+            width: 100%;
+            padding: 12px;
+            background-color: #3498db;
+            color: #ffffff;
+            border-radius: 6px;
+            border: none;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        /* Hover Effect for Button */
+        .card button:hover {
+            background-color: #2980b9;
+        }
